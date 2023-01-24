@@ -1,0 +1,80 @@
+body {
+    color: #191970;
+    background-image: url(/heckmaster/img/nekojiru.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    text-transform: lowercase;
+    font-size: 1rem;
+    font-family: serif;
+}
+
+a {
+    color: #ff4500;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    background-color: #faf0e6;
+    padding: 5px;
+}
+
+article {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    margin: 25px auto;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    background-color: #faf0e6;
+    bottom: 25px;
+    left: 25px;
+    padding: 0 15px;
+}
+
+section img {
+    margin: 8px auto;
+    display: block;
+}
+
+.pixel {
+    image-rendering: crisp-edges;
+}
+
+section {
+    flex: 25%;
+    -ms-flex: 25%;
+    max-width: 24%;
+    padding: 0 4px;
+}
+
+/*Medium rare screens*/
+@media screen and (max-width: 800px) {
+    section {
+        flex: 50%;
+        -ms-flex: 50%;
+        max-width: 48%;
+    }
+}
+
+/*Small screens so small*/
+@media screen and (max-width: 600px) {
+    section {
+        flex: 100%;
+        -ms-flex: 100%;
+        max-width: 96%;
+    }
+}

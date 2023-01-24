@@ -1,0 +1,79 @@
+body {
+    font-size: 1rem;
+    font-family: serif;
+    color: #e9e7e6;
+    text-transform: lowercase;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    color: #bebea3;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #bebea3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main {
+    width: 500px;
+    margin: auto;
+}
+
+header {
+    background-size: cover;
+    height: 50px;
+    padding: 25px;
+    max-width: 100%;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+nav {
+    max-width: 100%;
+    padding: 10px;
+}
+
+article {
+    max-width: 100%;
+    padding: 10px;
+}
+
+article section {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+aside {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+}
+
+/*Teeny tiny itty bitty screens*/
+@media screen and (max-width: 400px) {
+    main {
+        width: 320px;
+    }
+
+    article section {
+        width: 100%;
+    }
+}
