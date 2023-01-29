@@ -1,7 +1,6 @@
 body {
     font-size: 1rem;
     font-family: serif;
-    color: #e9e7e6;
     text-transform: lowercase;
     background-size: cover;
     background-attachment: fixed;
@@ -13,7 +12,7 @@ img {
 }
 
 a {
-    color: #bebea3;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -21,7 +20,6 @@ a:hover {
 }
 
 h1, h2, h3 {
-    color: #bebea3;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -32,12 +30,8 @@ main {
 }
 
 header {
-    background-size: cover;
-    height: 50px;
-    padding: 25px;
     max-width: 100%;
     text-transform: uppercase;
-    overflow: hidden;
 }
 
 nav {
