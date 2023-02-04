@@ -7,65 +7,65 @@
     <title>tips and tricks for web accessibility</title>
     <link rel="stylesheet" href="/heckmaster/style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            color: #1b1f21;
+            background: #f5ffe8;
+            font-family: monospace;
+        }
+    
+        a {
+            color: #dc143c;
+        }
+    
+        h1, h2, h3, tt {
+            color: #663399;
+            font-family: monospace;
+        }
+    
+        pre {
+            background-color: #141414;
+            color: #9ec722;
+            width: 96%;
+            padding: 10px;
+            border: 1px dashed #9ec722;
+            border-radius: 10px;
+            margin: 5px auto;
+            overflow: auto;
+            scrollbar-color: #fff transparent;
+            font-family: monospace;
+        }
+    
+        .center {
+            display: block;
+            margin: auto;
+        }
+    
+        .flashing {
+            -webkit-filter: blur(5px); /* For Safari 6.0 - 9.0 */
+            filter: blur(5px);
+        }
+    
+        .flashing:hover {
+            -webkit-filter: none;
+            filter: none;
+        }
+    
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    
+        hr {
+            outline: none;
+            border: none;
+            height: 1px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: #000;
+        }
+    </style>
 </head>
-<style>
-    body {
-        color: #1b1f21;
-        background: #f5ffe8;
-        font-family: monospace;
-    }
-
-    a {
-        color: #dc143c;
-    }
-
-    h1, h2, h3, tt {
-        color: #663399;
-        font-family: monospace;
-    }
-
-    pre {
-        background-color: #141414;
-        color: #9ec722;
-        width: 96%;
-        padding: 10px;
-        border: 1px dashed #9ec722;
-        border-radius: 10px;
-        margin: 5px auto;
-        overflow: auto;
-        scrollbar-color: #fff transparent;
-        font-family: monospace;
-    }
-
-    .center {
-        display: block;
-        margin: auto;
-    }
-
-    .flashing {
-        -webkit-filter: blur(5px); /* For Safari 6.0 - 9.0 */
-        filter: blur(5px);
-    }
-
-    .flashing:hover {
-        -webkit-filter: none;
-        filter: none;
-    }
-
-    footer {
-        text-align: center;
-        font-size: 0.8rem;
-    }
-
-    hr {
-        outline: none;
-        border: none;
-        height: 1px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        background-color: #000;
-    }
-</style>
 <body>
     <main>
         <h1>Tips and tricks for Web accessibility</h1>
@@ -139,7 +139,7 @@
         <hr>
         <!-- AUTOPLAY (WRITTEN BY DEVILS) -->
         <h2 id="autoplay">Autoplay sounds and music</h2>
-        <p>In regards to accessibility, autoplay is often frowned upon. Why is that? Well...</p>
+        <p>In regards to accessibility, autoplay is often frowned upon. Why is that? Well..</p>
         <ol>
             <li>People with screen readers will have trouble hearing them.</li>
             <li>People might be startled when they hear loud, sudden music.</li>

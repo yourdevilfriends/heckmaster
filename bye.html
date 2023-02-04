@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surf's up</title>
+    <link rel="stylesheet" href="/heckmaster/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url(/heckmaster/img/nexus.png);
+            color: #f6d6bd;
+        }
+
+        a {
+            color: #997577;
+        }
+
+        header, nav {
+            text-align: center;
+        }
+
+        .tab {
+            display: none;
+            background-color: #08141e;
+            border: 2px solid #c3a38a;
+        }
+
+        button {
+            background-color: #08141e;
+            border: 1px solid #c3a38a;
+            border-radius: 0;
+            font-family: serif;
+            color: #997577;
+            cursor: pointer;
+            margin: 5px auto;
+            text-transform: lowercase;
+        }
+
+        button.active {
+            color: #f6d6bd;
+        }
+
+        .fav::after, .fav::before {
+            content: '⛧';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Explore the web further</h1>
+        </header>
+        <nav>
+            <h3>Click a button to get started.</h3>
+            <p>Sites marked with a ⛧ are personal favorites.</p>
+            <button class="tablinks" onclick="openTab(event, 'indie')">Indie web</button>
+            <button class=https://archives.design/"tablinks" onclick="openTab(event, 'games')">Browser games</button>
+            <button class="tablinks" onclick="openTab(event, 'gaming')">Gaming resources</button>
+            <button class="tablinks" onclick="openTab(event, 'webdev')">Webdev resources</button>
+            <button class="tablinks" onclick="openTab(event, 'misc')">Misc. resources</button>
+            <button class="tablinks" onclick="openTab(event, 'graphics')">Web graphics</button>
+            <button class="tablinks" onclick="openTab(event, 'reads')">Interesting reads</button>
+            <button class="tablinks" onclick="openTab(event, 'sound')">Sound & music</button>
+            <button class="tablinks" onclick="openTab(event, 'art')">Visual art</button>
+            <button class="tablinks" onclick="openTab(event, 'archival')">Archival</button>
+            <button class="tablinks" onclick="openTab(event, 'information')">Information & education</button>
+            <button class="tablinks" onclick="openTab(event, 'what')">???</button>
+            <button class="tablinks" onclick="openTab(event, 'rip')">In memoriam</button>
+            <button class="tablinks" onclick="openTab(event, 'other')">Other topics</button>
+        </nav>
+        <!--Indie web-->
+        <article id="indie" class="tab">
+            <h2>Indie web</h2>
+            <p class="fav"><a href="https://dokode.moe/"><img src="/heckmaster/img/button/dokodemo.gif" alt="Dokodemo"></a>; Created by fellow cool guy Suni, Dokodemo is one of the most fun websites hosted on Neocities... kind of terrible that every Neocities newbie tries to copy his work though.</p>
+            <p><a href="https://uncannyvalley.neocities.org/"><img src="/heckmaster/img/button/uncannyvalley.gif" alt="Uncanny Valley"></a>; The amount of custom artwork made for this site is incredible! It's quite quirky and definitely full of personality.</p>
+            <p class="fav"><a href="https://lazybones.neocities.org/"><img src="/heckmaster/img/button/lazybones.gif" alt="Lazybones"></a>; A beautifully cozy website... It's as if a poem were a site. Does that make sense...? Don't answer.</p>
+            <p><a href="https://vaje.neocities.org/"><img src="/heckmaster/img/button/vaje.gif" alt="Vaje"></a>; The colorful website of a Roblox gamedev with an unique aesthetic. Includes autoplay.</p>
+            <p class="fav"><a href="https://kopawz.neocities.org/"><img src="/heckmaster/img/button/kopawz.gif" alt="Ko's Crag"></a>; I absolutely adore this one- filled with fun graphics and good humor, it's a treat! Includes autoplay.</p>
+            <p><a href="https://aywren.com/"><img src="/heckmaster/img/button/aywren.gif" alt="Aywren's Nook"></a>; A personal blog, mostly about the webmaster's gaming ventures.</p>
+            <p><a href="https://playmoar.neocities.org/"><img src="/heckmaster/heckmaster/img/button/playmoar.gif" alt="Playmoar"></a>; A personal website containing huge link collections and the webmaster's art.</p>
+            <p class="fav"><a href="https://heckscaper.com/main.html"><img src="/heckmaster/heckmaster/img/button/heckscaper.gif" alt="Heckscaper"></a>; The personal website of Emma Essex, the creator of Halley Labs.</p>
+            <p><a href="https://moonview.neocities.org/">NOAgarden</a>; A colorful personal website with art, ablog and anything else the webmaster likes. Speaking of the webmaster, Moon has pretty good taste in anime.</p>
+            <p><a href="https://feelingmachine.moe/"><img src="/heckmaster/heckmaster/img/button/feelingmachine.gif" alt="Feeling Machine"></a>; A personal website with a large focus on fandom and alterhumanity.</p>
+            <p><a href="https://ita.toys/"><img src="/heckmaster/heckmaster/img/button/ita.gif" alt="ita"></a>; A website inspired by Japanese fashion magazines. Cute, fun and obviously made with love.</p>
+            <p><a href="https://apexaltra.com/"><img src="/heckmaster/heckmaster/img/button/apexaltra.png" alt="Apex Altra"></a>; A personal and art website that features a webcomic called Katabasis.</p>
+            <p class="fav"><a href="https://newlambda.neocities.org/"><img src="/heckmaster/heckmaster/img/button/newlambda.gif" alt="heckmaster/synths"></a>; A fun website filled to the brim with content. Its webmaster, Synth, has their art featured there as well.</p>
+            <p><a href="http://ashido.com/"><img src="/heckmaster/heckmaster/img/button/ashido.gif" alt="Ashido"></a>; A personal website for webmaster Zarla to display her projects. Includes a page for let's plays and screencaps.</p>
+            <p class="fav"><a href="https://blankmanger.neocities.org/"><img src="/heckmaster/heckmaster/img/button/blankmanger.png" alt="Monastery of Saint Blankmanger"></a>; This website is a joy to explore, wonderfully illustrated with (mostly) Byzantine art.</p>
+            <p class="fav"><a href="https://lu.tiny-universes.net/"><img src="/heckmaster/heckmaster/img/button/lu.gif" alt="Lulu in Cyberspace"></a>; A website created by Lu, it's colorful and filled with personality. Tons of fun stuff here!</p>
+            <p><a href="http://toastytech.com/index.html">Nathan's Toasty Technology page</a>; Home to the <a href="http://toastytech.com/evil/index.html">Internet Explorer is evil!</a> page. Pretty retro, pretty funny as well.</p>
+            <p><a href="https://vertpush.neocities.org/"><img src="/heckmaster/heckmaster/img/button/vertpush.gif" alt="Vertpush"></a>; A site filled with the many projects of webmaster Ohmi. Ohmi also has <a href="https://www.ohmiyoni.com/">a site dedicated to her visual art</a>.</p>
+            <p><a href="https://youthculture2000.com/">Youth Culture 2000</a>; Home to a pretty cool webzine made by two people with a passion for Y2K nostalgia.</p>
+            <p><a href="https://2bit.neocities.org/"><img src="/heckmaster/heckmaster/img/button/2bit.png" alt="2Bit"></a>; Made almost entirely with 2bit graphics, 2bit is a fun site about retro technology. Includes autoplay.</p>
+            <p><a href="https://www.cameronsworld.net/">Cameron's World</a>; You've likely seen this one if you're already into the indie web scene- it's a love letter to the old Internet, made with a great amount of care and archived GeoCities graphics. Includes autoplay!</p>
+            <p><a href="https://ericexperiment.com/">The Eric Experiment</a>; Lots of content related to retro tech. Includes a pretty cool <a href="https://ericexperiment.com/dreamcast">page dedicated to the Sega Dreamcast</a>.</p>
+            <p class="fav"><a href="https://cadnomori.neocities.org/"><img src="/heckmaster/heckmaster/img/button/cadnomori.png" alt="Cadnomori"></a>; A cozy personal website filled with things its webmaster, Fox, loves. My personal favorite pages are the <a href="https://cadnomori.neocities.org/rpgmaker/yumenikki">Yume Nikki shrine</a> and <a href="https://cadnomori.neocities.org/writings/preface">rabbit holes</a>.</p>
+        </article>
+        <!--Fandom-->
+        <article id="fandom" class="tab">
+            <h2>Fandom</h2>
+            <p><a href="https://nokocchi.com/"><img src="/heckmaster/heckmaster/img/button/nokocchi.gif" alt="Hyper Drill"></a>; A fansite dedicated to Dunsparce, Dundunsparce and the webmaster's collection of items of those Pokémon.</p>
+            <p class="fav"><a href="https://bugsite.org/"><img src="/heckmaster/heckmaster/img/button/bugsite.png" alt="Bugsite"></a>; A fansite for Smilesoft's Network Adventure Bugsite. It has a ton of cool stuff, such as a complete list of the creatures from the games.</p>
+            <p><a href="https://wiki.telefang.net/Wikifang">Wikifang</a>; An indie wiki about the Smilesoft monster-taming games, which includes translation patches for most of them.</p>
+            <p class="fav"><a href="http://www.hamhamparadise.com/"><img src="/heckmaster/heckmaster/img/button/hamhamparadise.gif" alt="The Ham-Ham Paradise"></a>; A Hamtaro fansite, and a very cute one at that! Mostly focused on the anime.</p>
+            <p><a href="https://elucidatedvoyyd.neocities.org/rp-home"><img src="/heckmaster/heckmaster/img/button/robopon.gif" alt="The Robopon Iceberg"></a>; Fansite for the game Robopon, a comedic take on the monster-taming genre.</p>
+            <p><a href="http://www3.nns.ne.jp/~tk-mto/">KikiyamaHP</a>; The website of Yume Nikki's creator. Entirely in Japanese.</p>
+            <p class="fav"><a href="https://bookofages.jellyneo.net/">Book of Ages</a>; A Jellyneo subsite covering all aspects of Neopets lore.</p>
+            <p><a href="https://www.jellyneo.net/"><img src="/heckmaster/heckmaster/img/button/jellyneo.png" alt="Jellyneo"></a>; Well-known Neopets fansite dedicated to the retail version of the game. Even if you don't play the retail version, it's great for keeping up with updates.</p>
+            <p class="fav"><a href="https://www.dragonflycave.com/"><img src="/heckmaster/heckmaster/img/button/dragonflycave.gif" alt="The Cave of Dragonflies"></a>; A Pokémon-themed website with lots of content, from fanfiction and quizzes to tips on how to create your own site!</p>
+            <p><a href="https://autumnsgrace.neocities.org/"><img src="/heckmaster/heckmaster/img/button/autumnsgrace.png" alt="Autumn's Grace"></a>; A fansite about various topics, I especially like the <a href="https://autumnsgrace.neocities.org/fsc">article on old fansite culture</a>, as well as all the pages on other fansites. I think it's pretty cool to aid in the historical preservation of fandom culture!</a></p>
+            <p><a href="http://www.kirbysrainbowresort.net/"><img src="/heckmaster/heckmaster/img/button/kirbysrainbowresort.png" alt="Kirby's Rainbow Resort"></a>; One of the oldest running fansites I know of, dedicated to the powerful pink ball-creature himself!</p>
+        </article>
+        <!--Browser games-->
+        <article id="games" class="tab">
+            <h2>Browser games</h2>
+            <p class="fav"><a href="http://monsterbreeder.com/">Monster Breeder</a>; A game by Neil Cicierega where you capture and crossbreed monsters to sell them for big money.</p>
+            <p><a href="https://laingame.net/">lain game</a>; A web recreation of the PS1 Serial Experiments Lain game.</p>
+            <p><a href="https://www.ynoproject.net/">Yume Nikki Online Project</a>; Browser-based version of Yume Nikki and some of its fangames. Allows for multiplayer.</p>
+            <p><a href="https://magistream.com">MagiStream</a>; A browser pet site focused on hatching eggs to collect fantasy creatures. It has really pretty pixel art.</p>
+            <p class="fav"><a href="https://virtu.pet/">Virtu.Pet</a>; A recreation of old-school Neopets, with a heavy focus on quests and collections.</p>
+            <p class="fav"><a href="https://www.moderneopets.com/">Modern Neopets</a>; A recreation of old-school Neopets with a ton of custom content. I wrote some guides for it on the <a href="/heckmaster/discount.html">freebies page</a>.</p>
+            <p><a href="https://www1.flightrising.com/">Flight Rising</a>; A dragon-themed browser pet game with tons of features and an active community.</p>
+            <p class="fav"><a href="https://www.icepets.com/index.php?r=OnlineDevil"><img src="/heckmaster/img/button/icepets.gif" alt="Icepets"></a>; Icepets is a browser pet website with a small but active community of lovely users. The staff is pretty involved and the site frequently gets updates too.</p>
+            <p><a href="https://www.nitrome.com/"><img src="/heckmaster/heckmaster/img/button/nitrome.png" alt="Nitrome"></a>; Ah, Nitrome.. Not all of the old games have been converted, which is a shame. However, all of their games are pretty good and feature amazing pixel art.</p>
+        </article>
+        <!--Gaming resources-->
+        <article id="gaming" class="tab">
+            <h2>Gaming resources</h2>
+            <p class="fav"><a href="https://tcrf.net/The_Cutting_Room_Floor">The Cutting Room Floor</a>; Indie wiki about unused and cut content from video games. Great for learning about the game development process or just to read some cool video game trivia.</p>
+            <p class="fav"><a href="https://thegameboyabyss.neocities.org/"><img src="/heckmaster/heckmaster/img/button/thegameboyabyss.png" alt="The GameBoy Abyss"></a>; A website dedicated to GBA game reviews. Pretty funny stuff, especially when it comes to the articles on shovelware.</p>
+            <p><a href="https://www.spriters-resource.com/"><img src="/heckmaster/heckmaster/img/button/spriters-resource.gif" alt="The Spriters' Resource"></a>; The go-to site for video game spriting resources.</p>
+            <p class="fav"><a href="https://bluemaxima.org/flashpoint/"><img src="/heckmaster/heckmaster/img/button/flashpoint.png" alt="BlueMaxima's Flashpoint"></a>; An amazing archive of Flash games! Kind of a pain to get it to run on Linux, but very much worth it.</p>
+            <p><a href="https://crossingdesigns.tumblr.com/">CrossingDesigns Tumblr blog</a>; A huge collection of custom ACNH designs.</p>
+            <p class="fav"><a href="https://www.protondb.com/">ProtonDB</a>; Linux and Steam Deck compatability reports for Steam games.</p>
+            <p><a href="https://www.systemrequirementslab.com/cyri">Can You Run It?</a>; Website to help you figure out if you can run a game on your PC. Includes a browser-based app that evaluates if a game will run a game (only works on Windows though).</p>
+        </article>
+        <!--Webdev resources-->
+        <article id="webdev" class="tab">
+            <h2>Webdev resources</h2>
+            <p class="fav"><a href="https://www.w3schools.com/"><img src="/heckmaster/heckmaster/img/button/w3schools.gif" alt="W3Schools"></a>; Obligatory W3Schools link. Can you blame me? It's a great resource for web developers!</p>
+            <p><a href="https://zonelets.net/">Zonelets</a>; Free JS-based blogging engine. Pretty cool if you just want a personal blog and don't really know where to start learning how to code.</p>
+            <p class="fav"><a href="https://html-color.codes/">HTML Color Codes</a>; I like this color database over all the others because it has a simple, easy-to-navigate layout. Includes a color picker and a tool to pick colors from images.</p>
+            <p class="fav"><a href="https://neocities.org/">Neocities</a>; The free web hosting website where I got my start! It's still pretty dear to me.</p>
+            <p><a href="https://maxbittker.github.io/broider/">Broider</a>; Browser-based tool that you can use to create your own custom borders.</p>
+            <p><a href="https://flexboxfroggy.com/">Flexbox Froggy</a>; An interactive tutorial on how to style flexboxes featuring frogs!</p>
+        </article>
+        <!--Misc. resources-->
+        <article id="misc" class="tab">
+            <h2>Miscellaneous resources</h2>
+            <p class="fav"><a href="https://wiki.archlinux.org/">ArchWiki</a>; The main source for help regarding Arch(-based) Linux. Helped my ass plenty of times!</p>
+            <p><a href="https://www.fantasynamegenerators.com/">Fantasy Name Generators</a>; It's amazing how useful this site is for worldbuilding.. especially if you're bad at naming things (like me).</p>
+            <p class="fav"><a href="https://heckmaster/imgbox.com/">Imgbox</a>; Image-hosting site, it's what I use for the larger image files featured in my web projects.</p>
+            <p><a href="https://based.cooking/">Based Cooking</a>; A simple recipe site with no ads or trackers.</p>
+        </article>
+        <!--Graphics-->
+        <article id="graphics" class="tab">
+            <h2>Web graphics</h2>
+            <p><a href="http://diabellalovescats.com/">Diabella Loves Cats</a>; Mostly known for unique and vintage web graphics of cats and dogs. This site also includes a lot of other pet-related pages.</p>
+            <p class="fav"><a href="http://ouka.lomo.jp/rehoeass/"><img src="/heckmaster/heckmaster/img/button/rehoeass.gif" alt="Re:Hoeass"></a>; A ton of cute Animal Crossing themed pixel art, featuring almost every villager and item! Entirely in Japanese.</p>
+            <p><a href="https://gifcities.org/">GifCities</a>; One of Internet Archive's projects, where you can search for old gifs from GeoCities.</p>
+            <p><a href="https://sukiyaki.city/"><img src="/heckmaster/heckmaster/img/button/sukiyaki.png" alt="Sukiyaki City"></a>; A site with plenty of free-to-use graphics, though my favorite page is the <a href="https://sukiyaki.city/junko/">Junko Furuta tribute page</a>.</p>
+            <p><a href="http://sunnyneo.com/"><img src="/heckmaster/heckmaster/img/button/sunnyneo.gif" alt="SunnyNeo"></a>; A Neopets fansite that, besides covering Neopets news, includes plenty of original graphics.</p>
+            <p><a href="https://www.drsloth.com/">Dr. Sloth's Neopets Image Emporium</a>; An archive of official Neopets images.</p>
+            <p><a href="https://user.xmission.com/~emailbox/catstuff.htm"><img src="/heckmaster/heckmaster/img/button/catstuff.gif" alt="CatStuff"></a>; This old-school website is entirely dedicated to cats, with fairly large galleries of free-to-use graphics. It's also a huge hub of information and stories about our dear feline companions.</p>
+        </article>
+        <!--Interesting reads-->
+        <article id="reads" class="tab">
+            <h2>Interesting reads</h2>
+            <p><a href="https://feelingmachine.moe/articles/graffiti">The Subtle Art of Public Vandalism</a> by <a href="https://feelingmachine.moe/">Nephro</a>; The article that inspired me to start drawing on things I'm not supposed to.</p>
+            <p class="fav"><a href="https://gutterotica.com/">The Gutterotica Manifesto</a>; A powerful statement against artistic censorship.</p>
+            <p><a href="https://neonaut.neocities.org/cyber/crypt/">Cyber Mauseoleums</a> by <a href="https://neonaut.neocities.org/">neonaut</a>; An argument against deletion.</p>
+            <p><a href="https://chartcarr.neocities.org/SecretBase">Toby Fox's Secret Base</a>; Translations of Toby Fox's monthly column on the Japanese gaming magazine Weekly Famitsu. The <a href="https://chartcarr.neocities.org/secretbase_4">one about Yume Nikki</a> is my favorite!</p>
+        </article>
+        <!--Sound & music-->
+        <article id="sound" class="tab">
+            <h2>Sound & music</h2>
+            <p><a href="https://laurenbousfieldanyev3r.bandcamp.com/">Lauren Bousfield on Bandcamp</a>; Also known as Nero's Day at Dysneyland and In-House Pharmacy. Plenty of good stuff here!</p>
+            <p class="fav"><a href="https://billwurtz.com/">billwurtz</a>; The website of Bill Wurtz, featuring free songs, music videos and lyrics.</p>
+            <p><a href="https://junelalonde.bandcamp.com/">June LaLonde on Bandcamp</a>; I recently re-discovered her work, I listened to a lot of her songs when I was 14 and she's just as great as I remember.</p>
+            <p class="fav"><a href="https://lapfox.bandcamp.com/music">Halley Labs on Bandcamp</a> and <a href="https://heckscaper.com/backcat/">Halley Labs Back Catalog</a>; One of my favvorite musicians, I actually bought their entire discography because I love their work that much. Been listening to their songs since I was 12!</p>
+            <p class="fav"><a href="https://rainbowhunt.com/">Rainbow Hunt</a>; A sound generator based around rainy weather.</p>
+            <p><a href="https://defonic.com/vibeocean.html">Defonic Ocean noise generator</a>; Sea-themed sounds for relaxing.. unless you hate the ocean, in which case it's probably not very efficient.</p>
+        </article>
+        <!--Visual art-->
+        <article id="art" class="tab">
+            <h2>Visual art</h2>
+            <p class="fav"><a href="https://rgbteahouse.neocities.org/"><img src="/heckmaster/img/button/rgbteahouse.jpg" alt="RGB Teahouse"></a>; The art site of artist PJ, whose art I absolutely adore.</p>
+            <p><a href="https://ranfren.neocities.org/"><img src="/heckmaster/img/button/ranfren.gif" alt="Ranfren"></a>; Ranfren is a surrealist comic with pretty quirky art. The site doubles as an art archive and blog for the creator.</p>
+            <p><a href="https://www.bikobatanari.art/"><img src="/heckmaster/img/button/bikobatanari.gif" alt="Bikobatanari"></a>; The personal website of artist Biko. I find their articles to be quite fascinating as well.</p>
+            <p><a href="https://site.ideiascompeso.pt/sp2">Stolen Prints</a>; The website of a risoprint studio based in Portugal. I've printed stuff here! Entirely in Portuguese.</p>
+            <p class="fav"><a href="https://desdeunsotano.neocities.org/"><span lang="es"><img src="/heckmaster/heckmaster/img/button/desdeunsotano.gif" alt="Desde Un Sótano En Un Cerro"></span></a>; Mostly dedicated to wonderful photography. Entirely in Spanish.</p>
+            <p><a href="https://zonaplankton.net/"><img src="/heckmaster/heckmaster/img/button/zonaplankton.gif" alt="Zona Plankton"></a>; The personal website of artist noo.dll, with plenty of cool art! besides drawings, there's also original music.</p>
+        </article>
+        <!--Archival-->
+        <article id="archival" class="tab">
+            <h2>Archival</h2>
+            <p><a href="http://textfiles.com/"><img src="/heckmaster/img/button/textfiles.gif" alt="Text Files"></a>; A giant archive of text files from various sources, focused on the years 1980-1995.</p>
+            <p><a href="https://archives.design/">archives.design</a>; A curated archive of items related to graphic design from the Internet Archive.</p>
+            <p class="fav"><a href="https://archive.org/">Internet Archive</a>; Of course I had to include it! Home to the <a href="https://web.archive.org/">Wayback Machine</a>, it's an amazing documentative tool.</p>
+            <p class="fav"><a href="https://archive.sudomemo.net/">Flipnote Archive</a>; Almost every Flipnote uploaded from Flipnote Hatena has been archived here. Besides really cool animation, you can see how meme culture used to be.</p>
+            <p><a href="https://archiverse.guide/posts">Archiverse</a>; An (admitedly incomplete) archive of Miiverse posts. There's a lot of stuff to browse through, over 16 terabytes of data.</p>
+        </article>
+        <!--Information & education-->
+        <article id="information" class="tab">
+            <h2>Information & education</h2>
+            <p><a href="https://neal.fun/deep-sea/">The Deep Sea</a>; Site that shows you the different kinds of creatures that roam the sea (and how deep they do so) as you scroll down.</p>
+            <p class="fav"><a href="https://www.deceptive.design/">Deceptive design</a>; A site exposing websites and apps that trick you into doing things you didn't necessarily mean to do for their benefit. It also explains how deceptive design works.</p>
+            <p><a href="https://www.catalogueoflife.org/">Catalogue of Life</a>; A free list of all known species referenced by scientific name. Aimed towards taxonomists, but still useful if you're into the science of nature.</p>
+        </article>
+        <!--???-->
+        <article id="what" class="tab">
+            <h2>???</h2>
+            <p class="fav"><a href="https://www.weirdalmpreg.com/">Weird Al Male Pregnancy Theory</a>; An... <em>interesting</em> theory about Weird Al, written in all-caps. Not entirely sure if it's a joke, as it's been maintained for over 2 years. Includes autoplay.</p>
+            <p><a href="http://www.demon-sushi.com/warning/">Documentation of the FF7 House</a>; The story of a cult-like household based around Final Fantasy 7 soulbonding.</p>
+            <p><a href="http://blackpeopleloveus.com/">Black People Love Us!</a>; Old website parodying white people that <em>totally</em> aren't racist.</p>
+        </article>
+        <!--In memoriam-->
+        <article id="rip" class="tab">
+            <h2>In memoriam</h2>
+            <p><a href="https://web.archive.org/web/20070226104700/http://www.nightmarevalley.com/Main.php"><img src="/heckmaster/heckmaster/img/button/nightmarevalley.gif" alt="Valley of Nightmares"></a>; An old fansite that was quite popular when it was up. Has a certain edge that a lot of fansites lacked.</p>
+            <p class="fav"><a href="https://web.archive.org/web/20170901003557/http://www.patrickcrusade.org/">P.A.T.R.I.C.K. Crusade</a>; I thought it was the website of a potential cult at first, but it seems to be a website about a lady's personal philosophy and ideals. I find myself agreeing with her on a lot of things, though the world she evisions is too utopian to be realistic.</p>
+            <p><a href="https://web.archive.org/web/20120507105220/http://www.arkeis.com/"><img src="/heckmaster/heckmaster/img/button/arkeis.jpg" alt="Arkeis"></a>; One of the first fansites I ever visited, dedicated to Pokémon. It was maintained by a very skilled artist that seemingly doesn't have an online presence anymore.</p>
+            <p><a href="https://web.archive.org/web/20090829165222/http://geocities.com/zeldas_castle/index.html">Zelda's Castle</a>; A cute fansite dedicated to the Legend of Zelda series.</p>
+        </article>
+        <!--Other topics-->
+        <article id="other" class="tab">
+            <h2>Other topics</h2>
+            <p><a href="https://killedbygoogle.com/">Killed by Google</a>; List of discontinued Google products/services/whatever.</p>
+            <p><a href="http://www.planecrashinfo.com/lastwords.htm">Last words</a>; Transcripts and recordings of the last words of pilots of planes that crashed.</p>
+            <p><a href="https://www.facesofsuicide.com/">Faces of Suicide</a>; A website to remember those who took their own lives.</p>
+        </article>
+        <footer>
+            <a href="/heckmaster/"><button>Back</button></a>
+        </footer>
+    </main>
+    <script>
+        function openTab(evt, tabName) {
+          var i, tab, tablinks;
+          tab = document.getElementsByClassName("tab");
+          for (i = 0; i < tab.length; i++) {
+            tab[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+</body>
+</html>
