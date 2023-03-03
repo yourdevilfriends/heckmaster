@@ -27,6 +27,11 @@
             margin-top: 25px;
             margin-bottom: 25px;
         }
+
+        h6 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
         
         article {
             background-color: #fff;
@@ -44,6 +49,10 @@
             border-radius: 10px;
             margin-top: 15px;
             margin-bottom: 0;
+        }
+
+        .new::before {
+            content: url(/heckmaster/img/new.gif);
         }
     </style>
 </head>
@@ -63,8 +72,9 @@
             </nav>
             <hr>
             <!--Featured video-->
-            <h2 id="featured">Featured video</h2>
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Q1vkjOvD-zs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <h2 id="featured">Featured videos</h2>
+            <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0ocVdBXcms_8deEHZhojXA5wyAhtT1v_" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h6><a href="https://youtube.com/playlist?list=PL0ocVdBXcms_8deEHZhojXA5wyAhtT1v_">View full playlist</a></h6>
             <!--Interesting videos-->
             <h2 id="interesting">Interesting videos</h2>
             <ul>
@@ -122,6 +132,7 @@
             <!--Weird finds-->
             <h2 id="weird">Weird finds</h2>
             <ul>
+                <li class="new"><a href="https://youtube.com/playlist?list=PLo4M1tlpv9ruM7k2Pr_0auqL8IveRE5gl">Negotiator: How to succeed in Flash without really trying</a> by <a href="https://www.youtube.com/@retsu">Retsupurae</a> is a hilarious series of videos about a weird Flash game series.</li>
                 <li><a href="https://www.youtube.com/@parthenocarpySA" target="_blank">parthenocarpySA</a> AKA Cooking With Hoarders AKA Masaokis has the worst, most chaotic cooking show ever conceived</li>
                 <li><a href="https://youtube.com/playlist?list=PLABqEYq6H3vpCmsmyUnHnfMOeAnjBdSNm" target="_blank">Chris Chan: A Comprehensive History</a> is a documentary series on the OG lolcow... fair warning, it's over 70 parts long and potentially a huge waste of time</li>
                 <li><a href="https://youtu.be/MyfcmVRhs6w" target="_blank">When a Parasocial Relationship Goes Too Far</a> by <a href="https://www.youtube.com/@magicmush2893" target="_blank">MagicMush</a> details the story of a stalker and their victim... which happened entirely on 4chan</li>
@@ -131,5 +142,14 @@
             <p><a href="#top">Back to top</a></p>
         </footer>
     </main>
+    <script>
+        function onPlayerReady(event) {
+            event.target.playVideo();
+            setTimeout(setShuffleFunction, 1000);           
+        }
+        function setShuffleFunction(){
+            player.setShuffle(true);
+        }
+    </script>
 </body>
 </html>
